@@ -117,6 +117,9 @@
 		33A0997716563D1500A0EAD3 /* GAShadowSocksService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAShadowSocksService.m; sourceTree = "<group>"; };
 		33A099791656457900A0EAD3 /* shadowsocks-config-template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "shadowsocks-config-template"; sourceTree = "<group>"; };
 		33A0997B165649B000A0EAD3 /* shadowsocks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shadowsocks; sourceTree = "<group>"; };
+		4554C1EE17017E2E0061B1E9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4554C1EF17017E2E0061B1E9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		4554C1F017017E2E0061B1E9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
 		8905D9C915551DF200E0E13A /* GASSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASSHService.h; sourceTree = "<group>"; };
 		8905D9CA15551DF200E0E13A /* GASSHService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASSHService.m; sourceTree = "<group>"; };
 		8905D9D415552D4000E0E13A /* ssh */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ssh; sourceTree = "<group>"; };
@@ -612,6 +615,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 89B72C4E14E8DF9D0027DC19;
 			productRefGroup = 89B72C5A14E8DF9D0027DC19 /* Products */;
@@ -743,6 +747,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				89B72C6714E8DF9D0027DC19 /* en */,
+				4554C1EE17017E2E0061B1E9 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -751,6 +756,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				89B72C6D14E8DF9D0027DC19 /* en */,
+				4554C1EF17017E2E0061B1E9 /* zh-Hans */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -759,6 +765,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				89B72C7314E8DF9D0027DC19 /* en */,
+				4554C1F017017E2E0061B1E9 /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
